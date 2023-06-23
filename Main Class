@@ -1,17 +1,9 @@
-import java.awt.event.ActionListener;
+public class Main{
 
-import javax.swing.JFrame;
-
-public class GameFrame extends JFrame{
-  GameFrame(){
-    this.add(new GamePanel());
-    this.setTitle("Hungry Snake");
-    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    this.setResizable(true);
-    this.pack();
-    this.setVisible(true);
-    this.setLocationRelativeTo(null);
-    
+  public static void main(String[] args){
+    //new MainMenuFrame();
+    //new GameFrame();
+   // new GameFrame2();
+   new GameFrame3();
   }
-  
 }
